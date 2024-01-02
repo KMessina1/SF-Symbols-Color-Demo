@@ -1,5 +1,3 @@
-//
-
 /*--------------------------------------------------------------------------------------------------------------------------
     File: SF_Symbols_Color_DemoApp.swift
   Author: Kevin Messina
@@ -11,12 +9,12 @@ Modified:
 NOTES:
 --------------------------------------------------------------------------------------------------------------------------*/
 
-
-
 import SwiftUI
 
 @main
 struct SF_Symbols_Color_DemoApp: App {
+    @Environment(\.scenePhase) var scenePhase
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

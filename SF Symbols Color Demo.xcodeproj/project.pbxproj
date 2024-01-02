@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A406B0622B43517C00B35F48 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A406B0612B43517C00B35F48 /* DataModel.swift */; };
+		A406B0662B43683300B35F48 /* Swift+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A406B0652B43683300B35F48 /* Swift+Extensions.swift */; };
+		A406B0692B43907300B35F48 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A406B0682B43907300B35F48 /* Modifiers.swift */; };
 		A440FDC12B41D10A00C4DB95 /* SF_Symbols_Color_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A440FDC02B41D10A00C4DB95 /* SF_Symbols_Color_DemoApp.swift */; };
 		A440FDC32B41D10A00C4DB95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A440FDC22B41D10A00C4DB95 /* ContentView.swift */; };
 		A440FDC52B41D10C00C4DB95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A440FDC42B41D10C00C4DB95 /* Assets.xcassets */; };
@@ -14,6 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A406B0612B43517C00B35F48 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		A406B0652B43683300B35F48 /* Swift+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Extensions.swift"; sourceTree = "<group>"; };
+		A406B0672B436E1C00B35F48 /* SF-Symbols-Color-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SF-Symbols-Color-Demo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A406B0682B43907300B35F48 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		A440FDBD2B41D10A00C4DB95 /* SF Symbols Color Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SF Symbols Color Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A440FDC02B41D10A00C4DB95 /* SF_Symbols_Color_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SF_Symbols_Color_DemoApp.swift; sourceTree = "<group>"; };
 		A440FDC22B41D10A00C4DB95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,8 +58,12 @@
 		A440FDBF2B41D10A00C4DB95 /* SF Symbols Color Demo */ = {
 			isa = PBXGroup;
 			children = (
+				A406B0672B436E1C00B35F48 /* SF-Symbols-Color-Demo-Info.plist */,
 				A440FDC02B41D10A00C4DB95 /* SF_Symbols_Color_DemoApp.swift */,
 				A440FDC22B41D10A00C4DB95 /* ContentView.swift */,
+				A406B0612B43517C00B35F48 /* DataModel.swift */,
+				A406B0682B43907300B35F48 /* Modifiers.swift */,
+				A406B0652B43683300B35F48 /* Swift+Extensions.swift */,
 				A440FDC42B41D10C00C4DB95 /* Assets.xcassets */,
 				A440FDC62B41D10C00C4DB95 /* Preview Content */,
 			);
@@ -138,7 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A440FDC32B41D10A00C4DB95 /* ContentView.swift in Sources */,
+				A406B0662B43683300B35F48 /* Swift+Extensions.swift in Sources */,
 				A440FDC12B41D10A00C4DB95 /* SF_Symbols_Color_DemoApp.swift in Sources */,
+				A406B0622B43517C00B35F48 /* DataModel.swift in Sources */,
+				A406B0692B43907300B35F48 /* Modifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +289,9 @@
 				DEVELOPMENT_TEAM = 6Y2RTMNG22;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SF-Symbols-Color-Demo-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SFColorDemo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +321,9 @@
 				DEVELOPMENT_TEAM = 6Y2RTMNG22;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SF-Symbols-Color-Demo-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SFColorDemo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
